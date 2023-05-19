@@ -1,0 +1,323 @@
+*{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Work Sans', sans-serif;
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    list-style:none;
+    box-sizing:border-box;
+
+}
+/**************nav-section********************/
+
+.nav-link{
+    color: rgb(217, 217, 217);
+    font-size: 14px;
+}
+.nav-item{
+    padding-right: 16px;
+}
+.nav-item:hover a{
+    color: #fff;
+    transition: transform 0.4s ease;
+    transform: scale(1.1);
+}
+.navbar-brand{
+    font-size: 26px;
+}
+.carousel-fade::after{
+    content:"" ;
+    background: rgba(0,0,0,0.4);
+    z-index:2;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.banner-contents{
+    position: absolute;
+    top: 280px;
+    left: 320px;
+    text-align: center;
+}
+.banner-header{ 
+    color: white;
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 1.2;
+    font-family: "Playfair Display";
+}
+.banner-caption{
+    color: white;
+    font-size: 14px;
+}
+
+
+/***************our-room-section*********************/
+
+.our-room-section{
+    /* background-color: #e2dede; */
+    background-color: #fdf8f8;
+    margin-top: 100px;
+}
+.room-section-header{
+    font-size:40px;
+    text-transform:capitalize;
+    font-family: 'Playfair Display', serif;
+}
+.room-section-row{
+    margin:80px 0px;
+}
+.room-details-images{
+    width:100%;
+    height:100%;
+    transition:transform 0.4s ease;
+    /* display: block; */
+}
+.room-details{
+    overflow: hidden;
+    border: 1px solid rgba(215, 210, 210, 0.1);
+}
+.room-details:hover img{
+    transform:scale(1.1);
+}
+.room-details:hover{
+    box-shadow: 0 0px 25px 5px rgba(0,0,0,0.1);
+}
+.room-details-body{
+    margin:40px 0px;
+}
+
+/***************aboutus-section*********************/
+
+.aboutus-section{
+    margin-top: 100px;
+}
+.aboutus-figure img{
+    width: 100%;
+    height: auto;
+}
+.aboutus-section-title{
+    display: inline-block;
+    font-family: "Playfair Display";
+    font-size: 40px;
+}
+.aboutus-right-details>p{
+    color: rgba(0,0,0,0.5);
+    margin-top: 35px;
+}
+
+/****************Hotel-features-section********************/
+
+.hotel-features-section{
+    margin-top: 100px;
+}
+
+.hotel-features-section-header{
+    font-size:40px;
+    text-transform:capitalize;
+    font-family: 'Playfair Display', serif;
+}
+.hotel-features-icons .fa{
+    font-size: 80px;
+    color:rgb(249, 35, 35);
+}
+.hotel-features-icons h2{
+    font-size: 20px;
+    margin-top: 25px;
+}
+.hotel-features-icons{
+    margin-top: 100px;
+}
+
+/****************offer-promotion-section********************/
+
+.offer-promotion-section{
+    background-image: url(../images/hero_1.jpg);
+    background-attachment: fixed;
+    margin-top:100px;
+    margin-bottom: 100px;
+    font-family: 'Playfair Display', serif;
+    padding: 40px;
+    position: relative;
+}
+/* .offer-promotion-section::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background-color: rgba(0,0,0,0.1);  
+} */
+.caption{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 3px;
+}
+.countdown-block{
+    color: rgba(131, 130, 130, 0.7);
+}
+
+/******************our-gallery-section**********************/
+
+.our-gallery-section{
+    margin-top: 100px;
+}
+.gallery-section-header{
+    font-size:40px;
+    text-transform:capitalize;
+    font-family: 'Playfair Display', serif;
+}
+.gallery-section-figure figure img{
+    width: 100%;
+}
+.gallery-section-figure:hover img{
+    transform: scale(1.2);
+    transition: .3s ease;
+}
+.gallery-section-figure{
+    position:relative;
+    margin-top: 100px;
+    cursor:zoom-in;
+}
+.gallery-section-figure figure{
+    overflow: hidden;
+}
+.gallery-section-figure small{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    color: f23a2e;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background: #c2c1c1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: .7;
+    visibility: hidden;
+    font-family: 'Playfair Display', serif;
+
+}
+.gallery-section-figure:hover small{
+    visibility: visible;
+}
+
+
+/***************upcoming-events-section******************/
+
+.upcoming-events-section{
+    margin-top: 100px;
+}
+.events-section-header{
+    font-size:40px;
+    text-transform:capitalize;
+    font-family: 'Playfair Display', serif;
+
+}
+.sliding-events{
+    margin-top: 100px;
+    width: 360px;
+}
+.sliding-events-images{
+    width: 100%;
+}
+.events-details{
+    margin-bottom: 30px;
+}
+/*not solved the owl-nav owl-dots disable issues*/
+/*not solved the owl-nav owl-dots disable issues*/
+/*not solved the owl-nav owl-dots disable issues*/
+/*not solved the owl-nav owl-dots disable issues*/
+
+/* .owl-nav{
+    display:active !important;
+} */
+/* .wrapper .owl-nav{
+    color: aqua;
+} */
+
+/**************people-review-section*********************/
+
+.people-review-section{
+    margin-top: 100px;
+    background-color: #fdf8f8;
+}
+.review-section-header{
+    font-size:40px;
+    text-transform:capitalize;
+    font-family: 'Playfair Display', serif;
+    padding-top: 100px;
+
+}
+.people-image img{
+    width: 100%;
+    border-radius: 5% 5%;
+
+}
+.people-image{
+    padding-right: 15px;
+}
+.testimonial{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 360px;
+    padding-top: 40px;
+}
+
+/************footer-section*********************/
+
+.footer-section{
+    margin-top: 100px;
+    background-color: rgba(0,0,0,0.8);
+}
+.about-footer{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.about-footer-para{
+    color: rgba(255, 255, 255, 0.3);
+}
+.Quick-Menu , .ministries{
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.quick-menu-ul , .ministries-ul , .social-icons-ul{
+    padding-left: 0px;
+}
+.social-icons-ul li{
+    display:inline-block;
+}
+.social-icons-ul li a i{
+   padding-right: 20px;
+    color: rgba(255, 255, 255, 0.3);
+}
+.social-icons-ul >li>a:hover i{
+    color: #ffff;
+    transition: .5s;
+}
+.footer-lists:hover a{
+    color: #ffff;
+}
+.footer-lists a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
+    transition: .5s;
+}
+.footer-lists{
+    line-height: 38px;
+}
+.footer-copyright{
+    color: rgba(255, 255, 255, 0.5);
+    margin:80px 0px;
+    font-family: 'Work Sans', sans-serif;
+}
