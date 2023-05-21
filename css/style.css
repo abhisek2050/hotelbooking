@@ -22,7 +22,7 @@
 .nav-list{
     display: inline-block;
     padding-right: 16px;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 .nav-list:hover .nav-link{
     color: #fff;
@@ -31,7 +31,7 @@
 }
 .nav-link{
     color: rgb(217, 217, 217);
-    /* font-size: 16px; */
+    font-size: 14px;
 }
 .nav-logo a{
     text-decoration: none;
@@ -245,17 +245,6 @@
 .events-details{
     margin-bottom: 30px;
 }
-/*not solved the owl-nav owl-dots disable issues*/
-/*not solved the owl-nav owl-dots disable issues*/
-/*not solved the owl-nav owl-dots disable issues*/
-/*not solved the owl-nav owl-dots disable issues*/
-
-/* .owl-nav{
-    display:active !important;
-} */
-/* .wrapper .owl-nav{
-    color: aqua;
-} */
 
 /**************people-review-section*********************/
 

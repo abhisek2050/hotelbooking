@@ -67,40 +67,39 @@
     letter-spacing: 2px;
 }
 
+/************contact-section*********************/
 
-/***************our-room-section*********************/
-
-.our-room-section{
-    /* background-color: #e2dede; */
-    background-color: #fdf8f8;
+.contact-section{
     margin-top: 100px;
 }
-.room-section-header{
-    font-size:40px;
-    text-transform:capitalize;
-    font-family: 'Playfair Display', serif;
+.fullname, .email , .phone , .textarea{
+    width: 100%;
+    line-height: 2;
+    /* color: #495057; */
+    /* background-color: #fff; */
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    padding-left: 10px;
+    transition:  0.15s ease-in-out,;
+    box-shadow: 0.15s ease-in-out;
 }
-.room-section-row{
-    margin:80px 0px;
+
+form label{
+    font-weight: 550;
+    padding: 10px 0px;
+    color: rgba(0,0,0,0.5);
 }
-.room-details-images{
-    width:100%;
-    height:100%;
-    transition:transform 0.4s ease;
-    /* display: block; */
+.contact-info span{
+    color: rgba(0,0,0,0.5);
+    
 }
-.room-details{
-    overflow: hidden;
-    border: 1px solid rgba(215, 210, 210, 0.1);
+.contact-info .para{
+    color: rgba(0,0,0,0.5);
+
 }
-.room-details:hover img{
-    transform:scale(1.1);
-}
-.room-details:hover{
-    box-shadow: 0 0px 25px 5px rgba(0,0,0,0.1);
-}
-.room-details-body{
-    margin:40px 0px;
+.contact-info p a{
+    color: rgb(255, 53, 53);
+    text-decoration: none;
 }
 
 /************footer-section*********************/
