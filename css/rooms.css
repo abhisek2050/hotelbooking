@@ -8,23 +8,31 @@
     box-sizing:border-box;
 
 }
-/**************nav-section********************/
+/**************header-section********************/
 
-.nav-link{
-    color: rgb(217, 217, 217);
-    font-size: 14px;
+.nav-ul{
+    margin-bottom: 0px !important;
 }
-.nav-item{
+.nav-list{
+    display: inline-block;
     padding-right: 16px;
+    text-transform: capitalize;
 }
-.nav-item:hover a{
+.nav-list:hover .nav-link{
     color: #fff;
     transition: transform 0.4s ease;
     transform: scale(1.1);
 }
-.navbar-brand{
-    font-size: 26px;
+.nav-link{
+    color: rgb(217, 217, 217);
+    /* font-size: 16px; */
 }
+.nav-logo a{
+    text-decoration: none;
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+}
+
 .banner-portion figure img{
     position: relative;
     width: 100%;
@@ -48,7 +56,7 @@
 }
 .banner-header{ 
     color: white;
-    font-size: 64px;
+    font-size: 54px;
     font-weight: 900;
     line-height: 1.2;
     font-family: "Playfair Display";
