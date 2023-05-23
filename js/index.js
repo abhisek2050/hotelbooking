@@ -18,5 +18,15 @@ $(document).ready(function(){
             }
         }
     });
-   
+
+    let headerNav = document.querySelector(".header-nav");
+    window.addEventListener("scroll",scrollFunction);
+    function scrollFunction(){
+        if(window.scrollY>50){
+            headerNav.classList.add('sticky');
+        }else{
+            headerNav.classList.remove('sticky');
+        }
+    }
+
 });
